@@ -34,9 +34,9 @@ Drop any `.txt` file into the `posts/` folder:
 
 ```
 posts/
-  my-first-post.txt
-  travel-notes.txt
-  book-review.txt
+  Internship_05072026.txt
+  Internship_05092026.txt
+  Internship_05102026.txt
 ```
 
 The site rebuilds **automatically** — no command needed.
