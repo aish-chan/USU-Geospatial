@@ -1,0 +1,13 @@
+Internship - Bear River Association of Governments
+
+Project description:
+The projects are Pre-Disaster Mitigation Plans that BRAG completes for cities and counties, to be able to let local jurisdictions qualify for funding for hazard mitigation from the Federal Government. The datasets involve development, hazard risks, natural hazards, slopes, soils, development, streets, roads, and infrastructure, etc. 
+We are creating an analysis of natural hazard risks that are possible in a community, and how those potential natural hazard risks that occurred, may affect infrastructure or development in a community. We then will draft mitigation strategies, or update existing mitigation strategies. The GIS work deals with the first two steps, in this paragraph regarding natural hazard risks, and potential to impact development.
+
+Preferred technical skills:
+Document Layout Skills, Adobe InDesign, and related basic document image placements skills, and/or
+ArcGIS Pro, and potentially Python, or other automating/data crunching/analysis software, related to GIS datasets, and can do natural hazard risk analysis. 
+
+Contact - Brandon.Bell@brag.utah.gov for more information
+
+Deadline -May 30, 2026. 
