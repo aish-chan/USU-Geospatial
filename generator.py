@@ -10,7 +10,7 @@ from pathlib import Path
 from jinja2 import Template
 
 POSTS_DIR = Path("posts")
-OUTPUT_FILE = Path("output/index.html")
+OUTPUT_FILE = Path("docs/index.html")
 
 # ── Jinja2 template (single-page, all posts) ────────────────────────────────
 TEMPLATE = """<!DOCTYPE html>
