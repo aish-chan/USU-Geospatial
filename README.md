@@ -1,4 +1,4 @@
-# Blog Generator — Setup & Usage
+# Geospatial Job Oppotunities Blog — Setup & Usage
 
 A zero-database, single-page blog that rebuilds itself whenever you drop a `.txt` file into the `posts/` folder.
 
