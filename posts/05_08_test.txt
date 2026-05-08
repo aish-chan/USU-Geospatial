@@ -1,0 +1,7 @@
+Internship - Historic Chinese artifacts monitoring using LiDAR - Snake River, ID 
+
+The project involves identifying features of mining sites along the Snake River using lidar. We have been working on the Snake River near Twin Falls, documenting Chinese mining sites. What we have found is a much more complicated landscape associated with mining. Idaho Power is providing us with Lidar imagery, but it will need to be processed to help us identify mining features. We have mapped a number of features, but it would be great to identify them with the LiDAR imagery. The other part is to identify potential features, likely walls and structures, in a new area that we will be surveying in the spring. So, essentially, identifying potential areas for us to survey and ground truth. We have yet to receive the data from IPC and would like to schedule a meeting with them so they can provide us with the data in the most suitable format.
+
+Contact - shannon.belmont@usu.edu
+
+Deadline - Oct 30, 2025. 
