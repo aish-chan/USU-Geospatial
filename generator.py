@@ -25,13 +25,13 @@ TEMPLATE = """<!DOCTYPE html>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --ink:       #1a1714;
-      --paper:     #f5f0e8;
-      --cream:     #ede7d9;
+      --ink:       #020737;
+      --paper:     #ffffff;
+      --cream:     #f9f9f9;
       --accent:    #8b3a2a;
       --accent2:   #c4762a;
       --muted:     #7a736a;
-      --rule:      #c8bfb0;
+      --rule:      #ffffff;
     }
 
     html { scroll-behavior: smooth; }
@@ -325,7 +325,7 @@ def build_site(site_title="Utah Geospatial Opportunities", site_tagline="GIS, Re
     POSTS_DIR.mkdir(exist_ok=True)
     OUTPUT_FILE.parent.mkdir(exist_ok=True)
 
-    txt_files = sorted(POSTS_DIR.glob("*.txt"), key=lambda f: f.name, reverse=True)
+    txt_files = sorted(POSTS_DIR.glob("*.txt"), key=lambda f: f.stat().st_mtime, reverse=True)
 
     posts = []
     for f in txt_files:
