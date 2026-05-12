@@ -34,12 +34,12 @@ Drop any `.txt` file into the `posts/` folder:
 
 ```
 posts/
-  Internship_05072026.txt
-  Internship_05092026.txt
-  Internship_05102026.txt
+  2026-01-02.txt
+  2026-02-02.txt
+  2026-03-02.txt
 ```
 
-The site rebuilds **automatically** — no command needed.
+The site rebuilds **automatically** — no command needed. The posts are built with the most recent uploaded. The filename is saved with the date to position the post in the blog. 
 
 ### Supported Markdown
 
@@ -60,16 +60,7 @@ The site rebuilds **automatically** — no command needed.
 
 ## 4. View the site
 
-Open `output/index.html` in any browser.
-
-For a live local server (auto-refreshes in browser):
-
-```bash
-cd output
-python -m http.server 8000
-```
-
-Then visit: **http://localhost:8000**
+https://aish-chan.github.io/USU-Geospatial/
 
 ---
 
@@ -80,7 +71,7 @@ blog_generator/
 ├── posts/              ← Drop .txt files here
 │   ├── welcome.txt
 │   └── on-plain-text.txt
-├── output/
+├── docs/
 │   └── index.html      ← The generated site (open this)
 ├── generator.py        ← Rebuilds the site
 ├── watcher.py          ← Watches posts/ and triggers rebuilds
